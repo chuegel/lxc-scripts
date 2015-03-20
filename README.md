@@ -1,4 +1,4 @@
 Purpose
 -------
 
-Variuous scripts for managing lxc containers
+Various scripts for managing lxc containers
