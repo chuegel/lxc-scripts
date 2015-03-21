@@ -21,7 +21,7 @@ Invoke the script with `lxc_backup.sh <container name>`
 
 ### TODO
 
-* check if the provided container name exists
+* ~~check if the provided container name exists~~
 * update rootfs path in config file
 * check if repocache is used and fix the path in config file
 * TAR the backup container for easy exporting
