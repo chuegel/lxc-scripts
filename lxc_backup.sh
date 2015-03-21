@@ -14,7 +14,7 @@ then
 fi
 
 CONTAINER=$1
-CONTAINERBACKUP=$CONTAINER"-backup"
+CONTAINERBACKUP=$CONTAINER"-`date "+%m%d%Y"`"
 
 
 function stopcontainer {
