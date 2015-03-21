@@ -4,7 +4,8 @@ Various scripts for lxc container management
 
 ## lxc_backup.sh
 
-This script takes a snapshot of an existing container and creates a backup container from it. Due to the snapshot capability of lxc the downtime of the original container is reduced to a minimum. The backup container can be easliy exported to another machine running lxc.
+This script takes a snapshot of an existing container and creates a backup container from it. Due to the snapshot capability of lxc, the downtime of the original container is reduced to a minimum. A 2GB container took 30 seconds to backup.
+The backup container can then be easliy exported to another machine running lxc.
 
 ### What does the script do?
 
